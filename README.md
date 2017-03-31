@@ -1,2 +1,2 @@
 # Motion-Profile
-stuff
+Despite the project being called Robot Andrew, I can assure you that I was the one to program it. My "GetVisionData" command uses vision data that my friend and I wrote in python. It recognizes reflective tape shapes, then calculates the distance and angle that we are off from it' center x. I then call AutoGenerate() which takes in a distance and a max velocity, and uses a sinusoidal function to make a position motion profile, then I use the derivative of that function to create a velocity motion profile. Both of these are returned as array lists which can be then executed by my PID Controller! 
